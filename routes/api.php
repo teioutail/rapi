@@ -23,10 +23,13 @@ Route::group([
     Route::post('register', [\App\Http\Controllers\AuthController::class, 'register']);
 
 
-
+    
     // laravel v5 below
     // Route::post('login', 'AuthController@login');
     // Route::post('logout', 'AuthController@logout');
     // Route::post('refresh', 'AuthController@refresh');
     // Route::post('me', 'AuthController@me');
 });
+
+
+// Route::post('/class/abc', [\App\Http\Controllers\Api\SclassController::class, 'abc']);

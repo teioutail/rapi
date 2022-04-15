@@ -88,4 +88,8 @@ class SclassController extends Controller
     }
      
 
+    public function abc() {
+        return response('chester');
+    }
+
 }
